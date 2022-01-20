@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<style>
+    h1,h3,h4,h5,h6{
+        font-family: 'Rubik', sans-serif;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    #header{
+        height: 85px;
+        position: fixed;
+        width: 100%;
+        background-color: #ffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    .headerc{
+        /* height: 4000px; */
+        width: 82%;
+        margin: auto;
+        /* background-color: red; */
+    }
+    #logo{
+        height: 100px;
+        width: 22%;
+        float: left;
+    }
+    h2{
+        font-size: 37px;
+        margin-top: 18px;
+    }
+    span
+    {
+        color:#1769ff;
+        font-size: 37px;
+    }
+    #nav{
+        height: 100%;
+        width: 70%;
+        float: left;
+    }
+    #nav ul{
+        list-style: none;
+        margin-top: 0px;
+    }
+    #nav li{
+        display: inline-block;
+        padding:10px;
+        margin-top: 21px;
+        font-size: 20px;
+    }
+    a{
+        color:black;
+        text-decoration: none;
+    }
+    a:hover{
+        color:#1769ff;
+    }
+    .fa-search{
+        margin-left: 8%;
+        font-size: 23px;
+       /* float: right; */
+       color:black;
+    }
+    #button1{
+        height: 50px;
+        font-size: 18px;
+        width: 20%;
+        border-radius: 7px;
+        color: white;
+        border:1px solid #1769ff;
+        background-color: #1769ff;
+      margin-left: 8%;
+ 
+    }
+    #button1:hover{
+        background-color: red;
+        border:1px solid red;
+    }
+    .fa-moon{
+        font-size: 24px;
+       margin-left: 2%;
+    }
+    /* #serch{
+        height: 500px;
+        width: 20%;
+        position: fixed;
+   margin-left: 79%;
+        background-color: whitesmoke;
+        margin-top: 1%;
+        display: none;
+    }
+   
+     input{
+        height: 50px;
+        width: 90%;
+        margin-top: 0%;
+      margin-left: 4%;
+       
+       
+      
+    }
+    .fa-window-close{
+        color:black;
+        margin: 5px;
+        float: right;
+        font-size: 27px;
+       
+    }
+    h5{
+        font-size: 30px;
+        margin-left: 4%;
+      
+    }
+.button2{
+        height: 50px;
+        font-size: 18px;
+        width: 91%;
+        border-radius: 7px;
+        color: white;
+        border:1px solid #1769ff;
+        background-color: #1769ff;
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+    
+    
+    .span2{
+        color:gray;
+        margin-left: 4%;
+        font-size: 32px;
+        z-index: 1;
+        
+
+    }
+    .p1{
+        color:black;
+        font-size: 30px;
+        margin-left: 4%;
+        margin-top: 20%;
+    }
+     */
+     #banner1{
+         height: 710px;
+         padding:20px;
+         background-image:  url("https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/banner2.jpg");
+         background-size: cover;
+         /* opacity: 0.7; */
+         /* background-color: 	rgb(72,72,72); */
+      
+     }
+    
+     #banner1 p{
+         font-size: 22px;
+         color:#1769ff;
+         cursor: pointer;
+         margin-top: 10%;
+     }
+     #banner1 h1{
+         font-size: 80px;
+         color:white;
+     }
+     #banner1 button{
+         height: 50px;
+         width:13%;
+         border:1px solid #1769ff;
+         background-color: #1769ff;
+         color:white;
+         font-size: 17px;
+         border-radius: 7px;
+
+     }
+     #lo{
+         height: 210px;
+         width: 93%;
+         background-color: white;
+         margin-top: 10%;
+         margin-left: 4%;
+         border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+     }
+     .logo1{
+         height: 100px;
+         width: 170px;
+        margin-top: 3%;
+        margin-left: 6%;
+     }
+     .logo2{
+         height: 45px;
+         width: 170px;
+         margin-left: 6%;
+         margin-top: 0%;
+     }
+     .logo3{
+         height: 100px;
+         width: 220px;
+         margin-left: 6%;
+         background-color: white;
+     }
+     .logo4{
+         height: 60px;
+         width: 225px;
+         margin-left: 6%;
+     }
+
+     #banner2{
+         height: 700px;
+         padding:20px;
+         margin-top: 15%;
+         /* background-color:gray */
+         ;
+     }
+     .office{
+         height: 600px;
+         border-radius: 8px;
+         float: left;
+     }
+     .p11{
+         font-size: 19px;
+         line-height: 160%;
+         margin-left: 48%;
+         margin-top: 9%;
+        
+    
+
+     }
+     .p12{
+         font-size: 19px;
+         color:gray;
+         margin-left: 48%;
+         line-height: 160%;
+     }
+     .b1{
+         height: 50px;
+         width: 12%;
+         margin-left: 8%;
+         border:1px solid #1769ff;
+        background-color: #1769ff;
+        color:white;
+        font-size: 18px;
+        border-radius: 8px;
+}
+.who{
+    font-size: 22px;
+    color:#1769ff;
+}
+#banner3{
+    height: 700px;
+    padding:20px;
+    margin-top: 5%;
+    /* background-color: gray; */
+}
+#b2{
+    float: left;
+}
+.what{
+    font-size: 25px;
+    color:#1769ff;
+}
+.we{
+    font-size: 42px;
+
+
+}
+.lorem{
+    font-size: 20px;
+    line-height: 150%;
+
+}
+.ipsum{
+    font-size: 20px;
+    color:gray;
+}
+.b{
+    height: 46px;
+    width: 30%;
+    border-radius: 8px;
+    color:white;
+    font-size: 18px;
+    border:1px solid #1769ff;
+    background-color: #1769ff;
+}
+#box{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    border-radius: 8px;
+    margin: 15px;
+    transition: 2S;
+}
+#box:hover{
+    transform: translatey(-20px);
+    background-color: blue;
+    color:whitesmoke;
+}
+
+/* @keyframes name {
+    20%{background-color: #1769ff;}
+    10%{transform: translatey(-20px);}
+    
+} */
+
+#box i{
+    font-size: 35px;
+    color:#1769ff;
+    padding:20px;
+    margin-top: 5%;
+    margin-left: 5%;
+ 
+    
+    }
+
+   
+    .idea{
+        font-size: 26px;
+        margin-left: 8%;
+    }
+    .dolor{
+        font-size: 19px;
+        line-height: 130%;
+        margin-left: 8%;
+        color:gray;
+    }
+
+    #banner4{
+        height: 1050px;
+        padding:20px;
+        /* background-color: gray; */
+      
+
+    }
+    #b4{
+        float: left;
+    }
+    .us{
+        font-size: 22px;
+        color:#1769ff;
+    }
+    .our{
+        font-size: 40px;
+        line-height: 130%;
+
+    }
+    .bt{
+        font-size: 27px;
+
+    }
+    .bh{
+        font-size: 20px;
+        color:gray;
+        line-height: 130%;
+    }
+    .sohal{
+        font-size: 33px;
+        color:#1769ff;
+    }
+    .men{
+       float: right;
+       margin-left: 4%;
+       margin-top: 22%;
+       border-radius: 8px;
+       height: 700px;
+    }
+    #banner5{
+        height: 1000px;
+        padding:20px;
+        background-color: #F9FBFE;;
+
+    }
+    #left{
+        float: right;
+    }
+    .class1{
+        margin-top: 50%;
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .class2{
+        font-size: 18px;
+        color:gray;
+        line-height: 150%;
+ 
+    }
+    .class3{
+        font-size: 18px;
+        color:gray;
+        line-height: 150%;
+    }
+    .last{
+        height: 45px;
+        width: 27%;
+        font-size: 18px;
+        color:wheat;
+        background-color: #1769ff;
+        border:1px solid #1769ff;
+        border-radius: 8px;
+    }
+    .right1{
+        color:blue;
+        font-size: 20px;
+        margin-top: 8%;
+    }
+    .right2{
+        font-size: 40px;
+       
+    }
+    #numder1{
+        height: 120px;
+        width: 32%;
+        background-color: whitesmoke;
+        margin-top: 10%;
+        float: right;
+        padding:10px;
+        border-radius: 9px;
+        margin-right: 12%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    #numder2{
+        height: 120px;
+        width: 32%;
+        background-color: whitesmoke;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding:10px;
+        margin-top: 2%;
+        border-radius: 9px;
+        /* margin-left: 6%; */
+        margin-top: 2%;
+    }
+    .pro{
+        font-size: 38px;
+        text-align: center;
+    }
+    .prr{
+        color:#1769ff;
+        font-size: 20px;
+        text-align: center;
+    }
+    .classimg{
+        height: 700px;
+        margin-top: 2%;
+        border-radius: 10px;
+    }
+
+    
+    #banner6{
+        height: 1400px;
+        padding:10px;
+        /* background-color: gray; */
+    }
+    .class6{
+        font-size: 22px;
+        color:#1769ff;
+        margin-left: 8%;
+    }
+    .class7{
+        margin-left: 8%;
+        font-size: 50px;
+        line-height: 170%;
+    }
+    #img{
+        height: 300px;
+        width: 300px;
+        background-color: whitesmoke;
+    }
+    .imj1{
+        height: 500px;
+        width: 500px;
+        border-radius: 10px;
+        float: left;  
+        margin-left: 8%;
+        transition: 2s;
+
+    }
+    .imj1:hover{
+    transform: scale(0.9);
+        
+    }
+
+    .imj2{
+        height: 500px;
+        width: 500px;
+        border-radius: 10px;
+        margin-left: 4%;
+        transition: 2s;
+        
+      
+        /* margin: 10px; */
+    }
+    .imj2:hover{
+        transform: scale(0.9);
+    }
+    .my1{
+        height: 500px;
+        width: 500px;
+        border-radius: 10px;
+        margin-left: 8%;
+        margin-top: 3%;
+        transition: 2s;
+    }
+    .my1:hover{
+        transform: scale(0.9);
+    }
+    .my2{
+        height: 500px;
+        width: 500px;
+        border-radius: 10px;
+        margin-left: 4%;
+        transition: 2s;
+    }
+    .my2:hover{
+        transform: scale(0.9);
+    }
+    #nitinsohal{
+        height: 500px;
+        padding:10px;
+        opacity: 0.5;
+        background-attachment: fixed;
+        background-image: url("	https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/banner1.jpg");
+    }
+    #nitinsohal:hover{
+        opacity: 1.0;
+    }
+    #slider{
+        width: 40.40%;
+        float: left;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+    #slider p{
+        font-size: 20px;
+        color:white;
+        color:gray;
+        line-height: 160%;
+    }
+    #slider img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        
+    }
+    #slider h4{
+        font-size: 35px;
+        color:#ffff;
+    }
+   #bs{
+       height: 800px;
+       padding:10px;
+   }
+   #b1{
+       float: left;
+       width: 40%.40%;
+   }
+   #b1 img{
+       height: 310px;
+       width: 580px;
+       border-radius: 10px;
+       margin: 10px;
+     
+   }
+   #b1 .classimg2{
+       margin-left: 11%;
+   }
+   #b1 p{
+       font-size: 19px;
+       color:gray;
+
+   }
+   .by{
+       font-size: 20px;
+       color:#1769ff;
+   }
+   #b1 h2{
+       font-size: 33px;
+       color:black;
+   }
+   #b1 h2:hover{
+       color: #1769ff;
+   }
+   .hh{
+       margin-left: 9%;
+       line-height: 150%;
+   }
+   .Read1{
+       height: 45px;
+       width: 20%;
+       border:1px solid #1769ff;
+       /* margin-top: 8%; */
+       background-color: #1769ff;
+       border-radius: 10px;
+       color:white;
+       font-size: 17px;
+   }
+   .Read2{
+       height: 45px;
+       width: 20%;
+       border:1px solid #1769ff;
+       /* margin-top: 8%; */
+       margin-left: 10%;
+       background-color: #1769ff;
+       border-radius: 10px;
+       color:white;
+       font-size: 17px;
+       margin: 10px;
+   }
+   #last
+   {
+       height: 200px;
+       padding: 20px;
+       background-color: whitesmoke;
+   }
+   #b5{
+       float: left;
+       padding:10px;
+       margin-left: 7%;
+    
+   }
+   #b5 h3{
+       font-size: 27px;
+   }
+   #b5 p{
+       color:gray;
+       font-size: 19px;
+   }
+   input{
+       height: 45px;
+       width: 140%;
+        border-radius: 10px;
+
+   }
+   #b5 button{
+       height: 46px;
+       width: 52%;
+       border:1px solid #1769ff;
+       background-color: #1769ff;
+       color:white;
+       font-size: 17px;
+    border-radius: 10px;
+
+   }
+   #banner1last{
+       height: 300px;
+       padding: 20px;
+       background-color: rgb(0, 0, 56);
+       /* margin-left: 3%; */
+   }
+   .sa{
+       color:#1769ff;
+   }
+   #footer{
+       width: 24.24%;
+       float: left;
+   }
+   #footer h3{
+       font-size: 27px;
+       color:white;
+   }
+   #footer p{
+       color:gray;
+       line-height: 160%;
+       font-size: 18px;
+   }
+   #footer h5{
+       font-size: 27px;
+       margin-top: 12%;
+       color:white;
+   }
+   .code{
+       font-size: 37px;
+       color:gray;
+       padding:10px;
+   }
+   .code:hover{
+       color:#1769ff;
+   }
+   #lt{
+      height: 70px;
+       text-align: center;
+       color:white;
+       padding:20px;
+       font-size: 18px;
+       background-color: rgb(0, 0, 56);
+       border-top:1px solid white;
+   }
+.mylaptop{
+    color:#1769ff;
+    font-size: 18px;
+}
+</style>
+
+<body>
+    <div id="header">
+        <div class="headerc">
+            <div id="logo">
+                <h2> Dige<span>b</span>iz</h2>
+
+            </div>
+            <div id="nav">
+                <ul>
+                   
+                    <li><a href="#"><b>Home </b></a></li>
+                    <li><a href="#"><b> About us</b></a></li>
+                    <li><a href="#"><b> Pages  </b><i class="fas fa-long-arrow-alt-down"></i></a></li>
+                    <li><a href="#"><b> Services</b></a></li>
+                    <li><a href="#"><b> Contact</b></a></li>
+                    <span class="mani"> <i class="fas fa-search"></i></span>
+                   
+
+
+               <button id="button1">  Get in Touch  <i class="fas fa-long-arrow-alt-right"> </i>    </button>
+               <i class="far fa-moon"></i>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div id="banner1">
+        <div class="headerc">
+            <p><b>DIGITAL AGENCY.</b></p>
+            <h1> Why Wait ? Start Your <br>Own Business.</h1>
+            <button> Read More  <i class="fas fa-long-ap12rrow-alt-right"> </i>    </button>
+            <div id="lo">
+                <img src="https://1000logos.net/wp-content/uploads/2021/04/Paypal-logo.png" class="logo1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" class="logo2">
+                <img src="https://images.samsung.com/is/image/samsung/assets/in/about-us/brand/logo/mo/360_197_1.png?$FB_TYPE_B_PNG$" class="logo3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" class="logo4">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="banner2">
+        <div class="headerc">
+            <p class="who"><b>WHO WE ARE .</b></p>
+            <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/ab1.jpg" class="office">
+            <p class="p11"><b>
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices <br>
+                in ligula. Semper at tempufddfel.Pellen tesque libero ut justo,<br>
+                 ultrices in ligula.</b>
+            </p>
+            <p class="p12">
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.<br>
+                 Semper at tempufddfel. Learn more about our work! Lorem ipsum viverra<br>
+                  feugiat.consectetur adipisicing dolor et amet.
+            </p>
+            <p class="p12">
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.<br>
+                 Semper at tempufddfel. Learn more about our work! Lorem ipsum viverra<br>
+                  feugiat.consectetur adipisicing dolor et amet.
+            </p>
+            <button class="b1"> Read More   <i class="fas fa-long-arrow-alt-right"></i>  </button>
+
+        </div>
+
+    </div>
+
+
+    <div id="banner3">
+        <div class="headerc">
+            <div id="b2">
+
+            
+            <p class="what">  WHAT WE DO</p>
+            <p class="we"> <b> We are more than just<br>
+                a digital agency.</b></p>
+                <p class="lorem"><b>
+                    Lorem ipsum viverra feugiat. Pellen tesque <br>
+                    libero ut justo, ultrices in ligula. Semper at <br>
+                    tempufddfel.Pellen tesque libero ut justo, ultr<br>
+                    ices in ligula.</b>
+                </p>
+                <br>
+
+                <p class="ipsum">
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut<br>
+                     justo, ultrices in ligula. Semper at tempufddfel. L<br>
+                     earn more about our work.
+                </p>
+                <p class="ipsum">
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut<br>
+                    justo, ultrices in ligula. Semper at tempufddfel. L<br>
+                    earn more about our work.
+
+
+                </p>
+                <button class="b"> Read More  <i class="fas fa-long-arrow-alt-right"> </i></button>
+                </div>
+
+
+
+                <div id="box">
+                    <i class="fas fa-bolt"></i>
+                    <p class="idea"><b>Idea & Analysis</b></p>
+                    <p class="dolor"> Lorem ipsum dolor sit amet<br>
+                        a consectetur ipsum elit. Qui <br>
+                        eligendi vitae sit.</p>
+
+
+                </div>
+
+                <div id="box">
+                    <i class="fas fa-pen"></i>
+                    <p class="idea"><b>Designing</b></p>
+                    <p class="dolor"> Lorem ipsum dolor sit amet<br>
+                        a consectetur ipsum elit. Qui <br>
+                        eligendi vitae sit.</p>
+
+
+
+                </div>
+                <div id="box">
+                    <i class="fas fa-level-up-alt"></i>
+                    <p class="idea"><b>Development</b></p>
+                    <p class="dolor"> Lorem ipsum dolor sit amet<br>
+                        a consectetur ipsum elit. Qui <br>
+                        eligendi vitae sit.</p>
+
+
+
+                </div>
+
+                <div id="box">
+                    <i class="fas fa-volume-up"></i>
+                    <p class="idea"><b>Online marketing</b></p>
+                    <p class="dolor"> Lorem ipsum dolor sit amet<br>
+                        a consectetur ipsum elit. Qui <br>
+                        eligendi vitae sit.</p>
+
+                        
+
+
+                </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="banner4">
+        <div class="headerc">
+
+            <div id="b4">
+
+            
+             <p class="us">WHY US</p>
+              <h2 class="our"> Our Working Process To Help<br>
+                You Boost Your Business</h2>
+                <br>
+                <br>
+               <span class="sohal"> <i class="fas fa-thumbs-up"></i></span>
+                <p class="bt"><b>Perfect strategy</b></p>
+                <p class="bh"> 
+                    Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum <br>
+                    dolor sit amet elit.
+                </p>
+                <br>
+
+
+                <span class="sohal"><i class="fas fa-bolt"></i></i></span>
+                <p class="bt"><b>Innovative Idea</b></p>
+                <p class="bh"> 
+                    Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum <br>
+                    dolor sit amet elit.
+                </p>
+                <br>
+
+
+                <span class="sohal"><i class="fas fa-plane-departure"></i></i></span>
+                <p class="bt"><b>Effective solutions</b></p>
+                <p class="bh"> 
+                    Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum <br>
+                    dolor sit amet elit.
+                </p>
+
+<br>
+                <span class="sohal"><i class="fal fa-laptop-code"></i></i></span>
+                <p class="bt"><b>Testing & lauching</b></p>
+                <p class="bh"> 
+                    Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum <br>
+                    dolor sit amet elit.
+                </p>
+         </div>
+         <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/ab2.jpg" class="men">
+        </div>
+
+    </div>
+
+    
+
+    <div id="banner5">
+        <div class="headerc">
+            <div id="left">
+            <p class="class1">
+                     <b>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,<br>
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,<br> 
+                    Lorem ipsum viverra feugiat.</b>     <br>   
+                    </p>
+
+
+                    <br>
+                    <p class="class2">
+                        Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, html css<br>
+                       Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, javascript<br> 
+                       Lorem ipsum viverra feugiat.     <br>   
+                       </p>
+
+                       
+
+                       <p class="class3">
+                        Lorem ipsum viverra feugiat tesque libero ut justo, html javascript<br>
+                       Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, css html<br> 
+                       Lorem ipsum viverra feugiat.   <br>   
+                       </p>
+                       <button class="last"> Read more   <i class="fas fa-long-arrow-alt-right"> </i>  </button>
+                       <div id="numder1">
+                           <h1 class="pro"> 2020</h1>
+                           <p class="prr"> <b>Projects deliverd</b></p>
+
+                       </div>
+                       <div id="numder2">
+                        <h1 class="pro"> 1912</h1>
+                        <p class="prr"><b> Specialists</b></p>
+
+                    </div>
+
+
+
+            </div>
+
+            <div id="right">
+                <p class="right1"> OUR STATS</p>
+                <h1 class="right2"> We do design,code<br>
+                    and develop.</h1>
+
+            </div>
+            <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/ab3.jpg" class="classimg">
+
+        </div>
+
+    </div>
+
+
+
+    <div id="banner6">
+        <div class="headerc">
+            <p class="class6"> OUR PROJECTS</p>
+            <h1 class="class7"> Take A Look At Our<br>
+                Latest Projects</h1>
+                <div id="id">
+
+                </div>
+             <div id="id"></div>       <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/1.jpg" class="imj1">
+                    <img src="	https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/2.jpg" class="imj2">
+                    <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/4.jpg" class="my1">
+                    <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/3.jpg" class="my2">
+        </div>
+
+    </div>
+
+
+
+    <div id="nitinsohal">
+        <div class="header">
+            <div id="slider">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. html <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing.<br>
+                </p>
+                <h4> Shail Sohal</h4>
+                <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/team3.jpg">
+                
+
+            </div>
+            <div id="slider">
+               <p> 
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti.<br>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. html <br>
+                   Lorem ipsum dolor sit amet consectetur adipisicing.<br>
+               </p>
+                <h4> Nitin kumar</h4>
+                <img src="https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/team1.jpg">
+                
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div id="bs">
+        <div class="headerc">
+            <p> INSIGHT AND TRENDS</p>
+            <h2>Latest Blog & News</h2>
+            <div id="b1">
+            <img src="https://wp.w3layouts.com/digebiz/wp-content/uploads/sites/31/2021/03/banner1.jpg" class="classimg1">
+      <p> MARCH 19, 2021. <span class="by">- by W3Layouts</span></p>
+      <h2><b>Hello world!</b></h2>
+      <button class="Read1"> Read More   <i class="fas fa-long-arrow-alt-right"> </i></button>
+        </div>
+        <div id="b1">
+            <img src="https://wp.w3layouts.com/digebiz/wp-content/uploads/sites/31/2021/03/banner2.jpg" class="classimg2">
+      <p class="hh"> MARCH 19, 2021. <span class="by">- by W3Layouts</span></p>
+      <h2 class="hh"><b>
+        You can now listen to the entire  <br>
+         Design Better books for free</b></h2>
+         <button class="Read2"> Read More    <i class="fas fa-long-arrow-alt-right"> </i></button>
+        </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="last">
+        <div id="headerc">
+            <div id="b5">
+                <h3> Call Our Support</h3>
+                <p>24 / 7 Support Line :  +1(21) 234 557 4567</p>
+
+            </div>
+            <div id="b5">
+                <h3> Our Location</h3>
+                <p>Shipper, #2214 Honey street, NY - 62617..</p>
+
+            </div>
+            <div id="b5">
+                <h3> Our Newsletter</h3>
+                <input type="email" placeholder="Email Address"><br><br>
+                <button> Subscribe</button>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div id="banner1last">
+        <div class="headerc">
+
+        
+        <div id="footer">
+            <h3> Dige<span class="sa">b</span>iz</h3>
+            <p> 
+                Lorem ipsum viverra feugiat. Pellen tesque<br>
+                Lorem ipsum viverra feugiat. Pellen tesque<br>
+                Lorem ipsum viverra feugiat. Pellen tesque<br>
+                Lorem ipsum viverra feug<br>
+            </p>
+
+        </div>
+        <div id="footer">
+            <h3>Want to work with us?</h3>
+            <p> 
+                Use This Email<br><br>
+                mail@example.com
+            </p>
+
+        </div>
+        <div id="footer">
+            <h5>Want to say hi?</h5>
+            <p> 
+                Genenaral Inquires<br><br>
+                support@example.com
+            </p>
+
+        </div>
+        <div id="footer">
+            <h5>Find us on soical media</h5>
+            <p> 
+                Social Medias
+                
+            </p>
+            <span class="code">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter-square"></i>
+</span>
+        </div>
+        </div>
+
+    </div>
+    <div id="lt">
+        <p><b> © 2021 Digebiz. All Rights Reserved | WordPress Theme by<span class="mylaptop"> W3Layouts.</span></span></p>
+
+    </div>
+
+    <!-- <div id="serch">
+        <i class="fas fa-window-close"></i>
+        <h5><b>Search Here</b></h5>
+        <input type="search" placeholder="Enter keyword">
+        <button class="button2"> Search</button>
+
+        <p class="p1"><b> Follow Us</b></p>
+        <span class="span2">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google-plus"></i>
+        <i class="fab fa-instagram"></i>
+        </span>
+        
+     
+
+    </div> -->
+
+   
+  
+</body>
+</html>
